@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>success</title>
+  </head>
+  <body>
+
+    <table>
+      <tr>
+          <th>Email Addresses</th>
+          <th>Date/Time</th>
+      </tr>
+      {% for index in all_emails %}
+      <tr>
+          <td>{{ index['email']}}
+      </tr>
+    {% endfor %}
+    </table>
+
+  </body>
+</html>
